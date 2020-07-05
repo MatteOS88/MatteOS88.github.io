@@ -211,7 +211,7 @@ section.counter {
     section.first {
         top: 15vh;
         right: 50%;
-        transform: translateX(50%);
+        transform: translateX(40%);
     }
 
     section.counter {
@@ -221,6 +221,12 @@ section.counter {
         font-size: 14px;
         height: 18vh;
         width: 25vw;
+    }
+
+    h1 {
+
+        width: 50%;
+
     }
 
 }
