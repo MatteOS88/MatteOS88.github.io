@@ -219,12 +219,11 @@ section.counter {
         right: 50%;
         transform: translateX(60%);
         font-size: 14px;
-        height: 18vh;
+        height: 15vh;
         width: 25vw;
     }
 
     h1 {
-
         width: 50%;
 
     }
