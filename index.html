@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Słowniczek</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Fill & learn</h1>
+    <section class="first">
+        <div class="randomWord inSection"><button class="randomButton">Random</button></div>
+        <div class="inputWord inSection"><input class="inputWord" placeholder="click button first" type="text"></div>
+        <div class="tryToTranslate inSection"><input class="tryToTranslate" placeholder='write' type="text"></div>
+        <div class="try inSection"><button class="try">Try</button></div>
+        <div class="result inSection"></div>
+    </section>
+    <aside>
+        <div class="inputPolish inAside"><input class="inputPolish" type="text" placeholder="wpisz po polsku"></div>
+        <div class="inputEnglish inAside"><input class="inputEnglish" type="text" placeholder="wpisz tłumaczenie"></div>
+        <div class="Add inAside"><button class="addWord">Add word</button></div>
+        <div class="Reset inAside"><button class="resetAll">Reset all</button></div>
+    </aside>
+    <section class="counter">
+        <div class="inSectionCounter">Count number: <span class="countNumber"></span></div>
+        <div class="inSectionCounter">Positive answer: <span class="positiveAnswer"></span></div>
+        <div class="inSectionCounter">Percent: <span class="percent">%</span></div>
+        <div class="inSectionCounter">Duration: <span class="duration"></span></div>
+    </section>
+    <i class=" far fa-plus-square"></i>
+    <i class="far fa-question-circle"></i>
+    <script src="translator.js"></script>
+</body>
+
+</html>
