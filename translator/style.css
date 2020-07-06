@@ -31,7 +31,7 @@ section.first {
     position: fixed;
     top: 30vh;
     right: 30vw;
-    width: 30vw;
+    /* width: 30vw; */
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -196,7 +196,7 @@ section.counter {
     right: 5%;
     top: 60%;
     height: 22vh;
-    width: 20vw;
+    /* width: 20vw; */
     font-size: 20px;
     border: 3px solid black;
 }
@@ -211,21 +211,50 @@ section.counter {
     section.first {
         top: 15vh;
         right: 50%;
-        transform: translateX(40%);
+        transform: translateX(50%);
     }
 
     section.counter {
         top: 70vh;
         right: 50%;
-        transform: translateX(60%);
+        transform: translateX(50%);
         font-size: 14px;
         height: 15vh;
-        width: 25vw;
+        /* width: 25vw; */
     }
 
     h1 {
         width: 50%;
 
     }
+
+    aside {
+        position: fixed;
+        bottom: -25%;
+        left: 0%;
+        width: 100%;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0);
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        flex-grow: 1;
+        transition: 1s;
+        z-index: 2;
+    }
+
+    aside.active {
+        bottom: 10%;
+    }
+
+    i.activeIcon {
+        bottom: 25%;
+        font-size: 60px;
+    }
+
+    .blur {
+        filter: blur(2px);
+    }
+
 
 }

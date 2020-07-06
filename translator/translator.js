@@ -1,6 +1,8 @@
 const translateWord = ['embed', 'plumber', 'velocity', 'disgrace', 'barely', 'capable', 'awe', 'withdraw', 'former', 'insult', 'stubborn', 'semicolon'];
 const polishWord = ['osadzać', 'hydraulik', 'prędkość', 'hańba', 'ledwo', 'zdolny', 'groza', 'wycofać', 'były', 'zniewaga', 'uparty', 'średnik'];
 
+const sectionFirst = document.querySelector('section.first')
+const sectionCounter = document.querySelector('section.counter')
 const btnRandom = document.querySelector('.randomButton');
 const inputWord = document.querySelector('input.inputWord');
 const inputTryToTranslate = document.querySelector('input.tryToTranslate');
@@ -87,7 +89,7 @@ function translate() {
         } else {
             divResult.textContent = 'Wrong!';
             divResult.style.color = 'red';
-            divResult.style.fontSize = '40px';
+            divResult.style.fontSize = '30px';
             percent = (positiveAnswer / countNumber) * 100;
             spanPercent.textContent = Math.floor(percent) + " %";
             inputTryToTranslate.value = translateWord[index];
@@ -133,6 +135,8 @@ resetAll.addEventListener('click', function () {
 pocket.addEventListener('click', function () {
     aside.classList.toggle('active');
     pocket.classList.toggle('activeIcon');
+    sectionFirst.classList.toggle('blur');
+    sectionCounter.classList.toggle('blur');
 })
 
 question.addEventListener('click', function () {
