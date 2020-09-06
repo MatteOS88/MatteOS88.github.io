@@ -1,5 +1,5 @@
-const translateWord = ['embed', 'plumber', 'velocity', 'disgrace', 'barely', 'capable', 'awe', 'withdraw', 'former', 'insult', 'stubborn', 'semicolon', 'inevitable', 'plain', 'otherwise', 'well', 'bank', 'wipe', 'overwhelming', 'contribution', 'perplexing'];
-const polishWord = ['osadzać', 'hydraulik', 'prędkość', 'hańba', 'ledwo', 'zdolny', 'groza', 'wycofać', 'były', 'zniewaga', 'uparty', 'średnik', 'nieunikniony', 'równina', 'inaczej', 'studnia', 'brzeg', 'wycierać', 'przytłaczający', 'wkład', 'kłopotliwy'];
+const translateWord = ['embed', 'plumber', 'velocity', 'disgrace', 'barely', 'capable', 'awe', 'withdraw', 'former', 'insult', 'stubborn', 'semicolon', 'inevitable', 'plain', 'otherwise', 'well', 'bank', 'wipe', 'overwhelming', 'contribution', 'perplexing', 'custody', 'pond', 'thigh', 'amused', 'anticipate', 'cozy', 'senility', 'endorsement', 'smirk'];
+const polishWord = ['osadzać', 'hydraulik', 'prędkość', 'hańba', 'ledwo', 'zdolny', 'groza', 'wycofać', 'były', 'zniewaga', 'uparty', 'średnik', 'nieunikniony', 'równina', 'inaczej', 'studnia', 'brzeg', 'wycierać', 'przytłaczający', 'wkład', 'kłopotliwy', 'opieka', 'staw', 'udo', 'rozbawiony', 'przewidywać', 'przytulny', 'starość', 'poparcie', 'uśmiech'];
 
 const sectionFirst = document.querySelector('section.first')
 const sectionCounter = document.querySelector('section.counter')
